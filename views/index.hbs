@@ -3,9 +3,11 @@
     <h1>AN APP THAT GRANTS WISHES</h1>
     <h2>Pick a button, any button.</h2>
     <div class="buttons">
-      <button type="button" name="button">I wish Donald Trump would just go away!</button>
       <button type="button" name="button">I wish someone would tell me what day it is!</button>
-      <button type="button" name="button">I wish there was a better way to find things with Google Search!</button>
+      <button type="button" name="button"><a href="http://mrdoob.com/projects/chromeexperiments/google-sphere/">I wish there was a more interactive way to find things with Google Search!</a></button>
+      <button type="button" name="button" onclick="document.getElementById('hidden').style.display = 'block';">I wish Donald Trump would just go away!</button>
     </div>
   </container>
 </section>
+
+<img id="hidden" class="hidden" src="../images/trump2.jpg" />
