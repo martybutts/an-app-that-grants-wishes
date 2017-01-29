@@ -1,17 +1,68 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: font-family: 'Times New Roman', TimesNewRoman, Times, Baskerville, Georgia, serif;
 }
 
-a {
-  color: #00B7FF;
+h1 {
+  margin-top: 5px;
+  margin-bottom: 18px;
+  padding-bottom: 11px;
+  color: #ebe3e3;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 700;
+  text-align: center;
+}
+
+section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #def1e7;
 }
 
 container {
-  max-width: 800px;
-  display: inline-flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  margin-top: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  text-align: center;
+  background-color: #def1e7;
+}
+
+.buttons {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 80vw;
 }
 
 button {
@@ -19,4 +70,10 @@ button {
   width: 200px;
   background-color: red;
   display: inline;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 3px #292929;
+  -moz-box-shadow: 1px 1px 3px #292929;
+  box-shadow: 1px 1px 3px #292929;
 }
